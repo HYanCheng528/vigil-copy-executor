@@ -1,0 +1,20 @@
+{
+  "name": "vigil-copy-executor",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/copy-executor"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @vigil/copy-executor",
+    "build": "npm run build -w @vigil/copy-executor",
+    "test": "npm run test -w @vigil/copy-executor",
+    "typecheck": "npm run typecheck -w @vigil/copy-executor"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}

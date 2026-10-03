@@ -1,0 +1,27 @@
+# Credentials and private runtime state must never be committed.
+.env
+.env.*
+!.env.example
+!.env.sample
+node_modules/
+**/data/
+**/wallets/
+**/secrets/
+**/credentials/
+**/backup/
+**/backups/
+**/.tmp*/
+*.key
+*.pem
+*.pfx
+*.keystore
+*.db
+*.db-*
+*.sqlite*
+*.jsonl
+*.log
+*.map
+__pycache__/
+*.pyc
+.venv/
+venv/
